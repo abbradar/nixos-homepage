@@ -207,6 +207,12 @@ ssh azureuser@"$VM_NAME"."$LOCATION".cloudapp.azure.com
 
 </section>
 
+<section><h2 id="netboot">Network boot</h2>
+
+NixOS supports booting installation images over PXE. Third party project
+<a href="https://netboot.xyz/">netboot.xyz</a> supports NixOS among other
+distributions (both stable and unstable versions).
+
 <section><h2 id="unstable-releases">Unstable releases</h2>
 
 <p>If you are a developer who wants to contribute to NixOS, or if you
